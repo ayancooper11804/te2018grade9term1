@@ -1,5 +1,5 @@
 // Example
-let message = "Look At This Dude";
+let message = "Greetings Pleb";
 console.log(message);
 
 // Type your code below!
