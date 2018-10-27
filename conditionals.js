@@ -7,6 +7,17 @@ const READLINE = require("readline-sync");
 console.log("*** Problem 1: R-rated ***");
 let age = READLINE.question("Enter your age: ");
 let withAdult = READLINE.question("Are you with an adult? (yes or no): ");
+if (age >=18){
+
+console.log("Watch movie")
+
+}else{
+
+console.log("you need an adult scrub")
+
+}
+
+
 
 
 // **** Problem 2: Umbrella ****
@@ -17,6 +28,19 @@ let withAdult = READLINE.question("Are you with an adult? (yes or no): ");
 console.log("*** Problem 2: Umbrella ***");
 let raining = READLINE.question("Is it raining? (yes or no): ");
 let thunderstorming = READLINE.question("Is it thunderstorming? (yes or no): ");
+
+if(raining== "yes" thunderstorming== "no"){
+
+console.log("Get umbrella")
+
+}
+
+
+
+
+
+
+
 
 
 // **** Problem 3: Monkey Trouble ****
