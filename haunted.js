@@ -20,7 +20,11 @@ let enterHouse = READLINE.question("Will you enter the house? (yes or no) ");
 if(enterHouse == "y" || enterHouse == "yes") {
   player.courage++;
   console.log(`${player.name} prepares their ${player.weapon} and opens the door...`);
-  // continue the story
+  console.log(`${player.name} stands in the house surrounded by darkness and uses their flashlight.`)
+  console.log(`${player.name} sees one door on the left and one door on the right...`)
+  let door = READLINE.question("Which door will you choose? (left or right)")
+  if(door == "left") {
+  console.log(`${player.name} chooses the door on the left.`)
 
 } else {
   player.intellect++;
