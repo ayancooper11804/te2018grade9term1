@@ -2,12 +2,23 @@ const READLINE = require("readline-sync");
 
 // **** Problem 1: printMessage() ****
 // Write a function that prints any message you want.
-
+let person = {
+	name: "John Cena",
+	age: 25,
+	height: 5.9,
+	run: function(){
+		console.log("Run!");
+	}
+	
+}
 
 // **** Problem 2: printFiveMessages() ****
 // Write a function that calls printMessage() five times.
-
-
+run()
+run()
+run()
+run()
+run()
 // **** Problem 3: getUserInput() ****
 // Write a function that asks the user if they'd like to print your message
 // once or five times. Then call one of the two functions above based on
