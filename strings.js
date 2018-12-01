@@ -11,10 +11,14 @@ withoutEnd("coding") → "odin"
 
 function withoutEnd(str) {
 
+ let newStr = str.substring(1, str.length-1);
+ 
+return newStr;
+
 }
 
 // Remove comment below to test this function.
-//testWithoutEnd();
+testWithoutEnd();
 
 /******************************************************************************
                                    frontAgain()
@@ -30,10 +34,22 @@ frontAgain("ed") → true
 
 function frontAgain(str) {
 
+ let firstLet = str.CharAt(0)
+ let secondLet = str.CharAt(1)
+ let lastLet = str.CharAt(str.length-1)
+ let seclast = str.CharAt(str.length-2)
+  
+  if(fisrtLet == secLast && secondLet == lastLet){
+
+  return true
+}else{
+  return false
+} 
+
 }
 
 // Test this function.
-//testFrontAgain();
+testFrontAgain();
 
 /******************************************************************************
                                    deFront()
