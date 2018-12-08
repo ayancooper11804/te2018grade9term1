@@ -6,6 +6,19 @@ console.log(`*******************************************
 
 ********************************************`);
 
+let day = READLINE.question("How was your day? good/bad: ");
+
+if(day == "good") {
+
+console.log("Good to hear!")
+
+}
+else{
+
+n
+
+
+
 let hw = READLINE.question("Did you do your homework? yes/no: ");
 
 

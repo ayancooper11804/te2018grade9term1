@@ -110,7 +110,13 @@ alarmClock(6, true) → "off"
 alarmClock(0, false) → "10:00"
 *******************************************************************************/
 
-function alarmClock(day,vacation)
+function alarmClock(day,vacation){
+
+if(onVacation){
+
+
+  
+}
 
 
 
@@ -121,6 +127,7 @@ function alarmClock(day,vacation)
 
 
 
+}
 
 // Remove comment below to test this function.
 testAlarmClock();
